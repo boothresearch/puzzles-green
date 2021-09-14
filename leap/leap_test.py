@@ -7,7 +7,7 @@ from leap import leap_year
 
 class LeapTest(unittest.TestCase):
     def test_year_not_divisible_by_4_in_common_year(self):
-        self.assertIs(leap_year(2015), False) 
+        self.assertIs(leap_year(2015), False)   
 
     def test_year_divisible_by_2_not_divisible_by_4_in_common_year(self):
         self.assertIs(leap_year(1970), False)
