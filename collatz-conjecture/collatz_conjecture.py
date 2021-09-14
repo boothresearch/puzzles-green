@@ -7,6 +7,9 @@ def steps(number):
             #if even, divide until odd
             while number % 2 == 0:
                     number = number / 2 
+            #if odd, 3n+1
+            while number % 2 != 0:
+                number = 3*number+1
     else:
         print("Negative or 0")
 
