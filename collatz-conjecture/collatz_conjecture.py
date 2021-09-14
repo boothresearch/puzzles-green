@@ -12,5 +12,5 @@ def steps(number):
                 count +=1
         return(count)
     else:
-        return(ValueError)
+        raise ValueError("This is a 0 or negative number")
 
