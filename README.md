@@ -1,6 +1,7 @@
 # Puzzles
 
 Fixed whatever
+Another change
 
 In order to level up our programming skills, and have something to do while learning software engineering **workflows**, let's solve some puzzles in Python.
 
