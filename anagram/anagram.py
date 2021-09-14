@@ -1,2 +1,6 @@
 def find_anagrams(word, candidates):
-    pass
+    letters = list(word)
+    for candidate in candidates:
+        can_letters = list(candidate)
+        
+
