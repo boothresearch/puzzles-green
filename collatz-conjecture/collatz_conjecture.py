@@ -1,12 +1,12 @@
 def steps(number):
     if number > 0:
-        #check if odd
-        even = number/2
-        if even.is_integer():
-            #divide by 2 until number is odd
-            #then 3n+1 until equal to 1
-            3*number+1
-        else:
-             #then 3n+1 until equal to 1
+        while number !=1:
+            #if odd, 3n+1
+            while number % 2 != 0:
+                number = 3*number+1
+            #if even, divide until odd
+            while number % 2 == 0:
+                    number = number / 2 
     else:
         print("Negative or 0")
+
