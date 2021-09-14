@@ -2,4 +2,10 @@ def leap_year(year):
     hun = year/100
     fhun = year/400
     four = year/4
-    return(four.is_integer() and (not hun.is_integer() and fhun.is_integer()))
+    if four.is_integer():
+        if fhun.is_integer():
+            return(True)
+        if hun.is_integer():
+            return(False)
+        else:
+            return(True)
