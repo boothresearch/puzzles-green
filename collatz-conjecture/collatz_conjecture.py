@@ -9,7 +9,7 @@ def steps(number):
                 number = 3*number+1
         return(number)
     else:
-        print("Negative or 0")
+        return(ValueError)
 
 steps(12)
 
