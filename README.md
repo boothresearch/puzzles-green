@@ -1,5 +1,7 @@
 # Puzzles
 
+Fixed whatever
+
 In order to level up our programming skills, and have something to do while learning software engineering **workflows**, let's solve some puzzles in Python.
 
 In this repository, you'll find twenty-five folders, each containing one puzzle. Each folder contains a `README.md` with a description of the problem, and a `.py` file with a stub of a solution. Your job is to complete the implementation.
